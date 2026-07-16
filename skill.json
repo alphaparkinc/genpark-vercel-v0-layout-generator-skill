@@ -1,0 +1,24 @@
+{
+  "name": "genpark-vercel-v0-layout-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Vercel v0 structural React layout compiler.",
+  "author": "genpark",
+  "category": "creative",
+  "tags": [
+    "vercel",
+    "v0",
+    "layout"
+  ],
+  "inputs": {
+    "layout_prompt": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "component_markup": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
